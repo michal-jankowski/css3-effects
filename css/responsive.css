@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) {
+
+	/*=========================================
+	HEADER
+	==========================================*/
+
+	.mobile-menu-open-button {
+		display: none;
+	}
+
+	nav {
+		display: block;
+		float: right;
+	}
+
+	nav ul li {
+		display: inline-block;
+	}
+
+	nav ul li a {
+		padding: 8px 16px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	nav ul li a:hover {
+		background-color: #66ccff;
+	}
+
+	/*=========================================
+	MODAL WINDOW
+	==========================================*/
+
+	.modal-window-overlay {
+		height: 60%;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		top: 20%;
+	}
+
+	.modal-window-wrap {
+		max-width: 700px;
+	}
+
+}

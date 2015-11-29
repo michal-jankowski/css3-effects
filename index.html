@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Inteliclinic | Zadanie</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<!-- MOBILE MENU -->
+	<input type="checkbox" id="mobile-menu-trigger">
+	<div class="mobile-menu" id="main-nav-mobile">
+		<label for="mobile-menu-trigger" class="mobile-menu-close-button">Menu</label>
+ 		<ul class="mobile-main-nav">
+ 			<li><a href="index.html">Element menu #1</a></li>
+			<li><a href="index.html">Element menu #2</a></li>
+			<li><a href="index.html">Element menu #3</a></li>
+ 		</ul>
+ 	</div> <!-- mobile-menu end -->
+
+	<!-- HEADER -->
+	<header>
+		<h1 class="logo"><a href="index.html">Logo</a></h1>
+		<label for="mobile-menu-trigger" class="mobile-menu-open-button"><span>Menu</span></label>
+		<nav>
+			<h2 class="hide">Main Navigation</h2> <!-- html5 document outlines -->
+			<ul>
+				<li><a href="index.html" class="selected">Element menu #1</a></li>
+				<li><a href="index.html">Element menu #2</a></li>
+				<li><a href="index.html">Element menu #3</a></li>
+			</ul>
+		</nav>
+	</header>  <!-- header end -->
+
+	<!-- MAIN CONTENT -->
+	<section>
+		<h2 class="hide">Main Content</h2> <!-- html5 document outlines -->
+
+		<!-- MODAL WINDOW OPEN BUTTON -->
+	 	<input type="checkbox" id="modal-window-trigger">
+	 	<label for="modal-window-trigger" class="modal-window-open-button">Button</label>
+
+		<!-- MODAL WINDOW -->
+        <div class="modal-window-overlay">
+            <div class="modal-window-wrap">
+                <label for="modal-window-trigger" class="modal-window-close-button">&#10006;</label> <!-- modal-window close button -->
+                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.</p>
+            </div> <!-- modal-window-wrap end -->
+		</div> <!-- modal-window-overlay end -->
+	</section> <!-- main-content section end -->
+
+</body>
+</html>
